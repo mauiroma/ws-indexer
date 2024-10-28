@@ -43,19 +43,18 @@ output {
 ## Create Elastic Index
 Open the `Dev Tools` and put the input took from [index.es](index.es)
 
-## running logstash
-Use the command line to start Logstash with your configuration file. Navigate to the directory where Logstash is installed and run:
-```shell script
-bin/logstash -f path/to/pipeline.conf
-```
-Replace path/to/pipeline.conf with the actual path to your configuration file.
-
-## running the application
+## Running the application
 The application can be started using:
 ```shell script
 ./mvnw spring-boot:run
 ```
 
+## Running logstash
+Use the command line to start Logstash with your configuration file. Navigate to the directory where Logstash is installed and run:
+```shell script
+bin/logstash -f path/to/pipeline.conf
+```
+Replace path/to/pipeline.conf with the actual path to your configuration file.
 
 ## Verify Indexed Documents
 You can verify the documents on the Management page under `Dev Tools`.
