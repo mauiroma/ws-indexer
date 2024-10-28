@@ -1,7 +1,7 @@
 # WS-indexer
 
 The project demostrate how to have a WebServices that expose a service and you want to ingest the result of each invocation into Elastic.
-To achieve that the project uses `http_poller` input plugin from logstash  
+To achieve that the project uses [`http_poller`](https://www.elastic.co/guide/en/logstash/current/plugins-inputs-http_poller.html) input plugin from logstash  
 
 
 
