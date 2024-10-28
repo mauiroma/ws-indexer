@@ -46,7 +46,7 @@ Open the `Dev Tools` and put the input took from [index.es](index.es)
 ## Running the application
 The application can be started using:
 ```shell script
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 ## Running logstash
